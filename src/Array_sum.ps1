@@ -1,3 +1,5 @@
+#!powershell
+
 function arraysum
 {
     Param ([int]$size)
@@ -16,4 +18,5 @@ function arraysum
     return $sum
 }
 
-arraysum 3  #to call
+$sum = arraysum 3  #to call
+echo $sum
