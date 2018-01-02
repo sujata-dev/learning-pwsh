@@ -1,7 +1,10 @@
+#!powershell
+
 function area
 {
     Param ([int]$rad)
-    return [int]([Math]::Pi * [Math]::pow($rad,2))
+    return [int]([Math]::Pi * [Math]::pow($rad, 2))
 }
 
-area 3  # to call
+$ans = area 3
+echo area 3
