@@ -1,4 +1,4 @@
-#!powershell
+#!/usr/bin/env pwsh
 
 function area
 {
