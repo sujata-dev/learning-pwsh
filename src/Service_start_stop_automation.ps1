@@ -1,4 +1,5 @@
-param (
+param
+(
     [Parameter(Mandatory=$true)]
     [string] $ServiceName,
     [string] $Action,
